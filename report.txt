@@ -1,0 +1,32 @@
+Technical Task
+
+As a Data Scientist for "The Wine Land," I have analyzed the provided dataset and derived the following top 5 actionable insights:
+
+The highest-rated wines are produced in Italy, France, and the US. Therefore, "The Wine Land" should focus on importing and selling wines from these countries.
+Wines with a higher price point tend to have higher ratings. Therefore, "The Wine Land" can cater to customers looking for premium wines by offering a wider range of expensive wines.
+The most popular grape variety used to make wines is "Pinot Noir". Therefore, "The Wine Land" can stock a larger variety of Pinot Noir wines to cater to the high demand for this type.
+Wine reviews often contain the vintage year, indicating that customers value the age of the wine. Therefore, "The Wine Land" can offer more aged wines to attract customers who value this characteristic.
+Wines from specific regions like Napa Valley, Tuscany, and Bordeaux have higher ratings and are more expensive. Therefore, "The Wine Land" can stock more wines from these regions to cater to customers who prefer premium wines.
+
+Assumptions made during the analysis:
+
+The dataset provided represents the entire wine industry and is not biased toward any particular type of wine or region.
+The reviews provided in the dataset are accurate and unbiased.
+The price and rating of the wine are not affected by the availability or scarcity of the wine.
+The input features are independent of each other.
+The input features are relevant to the output variable.
+The dataset is representative of the problem domain.
+The dataset is free of errors and missing values.
+The dataset is sufficiently large and diverse to avoid overfitting.
+The dataset has a balanced class distribution.
+The chosen hyperparameters, such as the number of estimators, are optimal for the problem.
+The model can capture the underlying patterns and relationships in the data to make accurate predictions on new, unseen data.
+
+Code snippets for building the predictive model and API can be found in the GitHub repository: https://github.com/<username>/<repository>
+
+Input/Output contract for the API:
+
+Input: JSON data with the following attributes - "review_title", "review_description", "designation", "points", "price", "province", "region_1", "region_2", and "winery".
+
+Output: JSON data with the predicted wine variety.
+
